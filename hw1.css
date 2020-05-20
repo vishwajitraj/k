@@ -1,0 +1,140 @@
+table.cal{
+	width:800px;
+	height:800px;
+	color:#06426C;
+	border-spacing:2px;
+	border:3px solid black;
+	-webkit-border-radius:25px 25px 0 0 ;
+	border-radius:15px 15px 25px 25px;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	text-align: center;
+	table-layout: auto;
+}
+table,th,td{
+
+	border: 1px solid #ffffff;
+}
+th{
+	border-top-left-radius:7px;
+	border-top-right-radius:7px; 
+	background: linear-gradient(#d8e4a8,#53650c);
+	color: #ffffff;
+}
+
+td{
+	color: #000000;
+	text-shadow: 3px 3px 4px #767613;
+
+}
+tr td{
+	background-color:#ebf8db;
+}
+
+tr{
+		opacity: 0.7;
+
+}
+tr.header{
+	opacity: 1;
+}
+
+tr:hover{
+	opacity: 1;
+}
+th:first-child, td:first-child{
+	text-align: left;
+}
+tr.vis{
+	
+	background-color:#00000ff;
+	text-align:left;
+	
+	
+}
+tr{
+	background-color:#F0F0FF;
+	text-align:left;
+}
+body{
+	font-family: "Times New Roman";
+	padding: 5px;
+}
+h1{
+	text-align:center;
+	color:#F23000;
+	font-family:normal;
+}
+nav{
+	text-align:center;
+	color:#FFFFFF;
+}
+
+header{
+	background-image:url("webpic2.png");
+	background-color:#ffff00;
+width:1440px;
+height:150px;
+padding: 25px;
+margin-top:5px;
+margin-left:1px;
+}
+nav a{
+	width:100px;
+	height:30px;
+	border:30px;
+	margin:7px;
+	padding:20px 20px;
+	color:#FF0000;
+	background-color:#FFFFFF;
+	font-family:normal;
+	text-decoration:none;
+	font-weight:bold;
+	border-radius:10px;
+}
+nav .active{
+	background-color: rgba(255,255,255,1);
+	color: rgb(0,0,255);
+}
+
+img{
+	width: 500px;
+	border: solid #000000 10px;
+}
+aside{
+	display: inline-block;
+	background-color:#f02356;
+	padding: 20px;
+	float: left;
+	display: flex;
+	flex-direction: column;
+	margin: 0px 1px 0px 1px;
+
+}
+
+	
+	
+}
+.right{
+	margin-left: 10px;
+	display: inline-block;
+	float: left;
+	
+}
+main{
+	display: flex;
+}
+
+}
+video{
+	width: 500px;
+	border: solid #000000 10px;
+      display: inline-block;
+       padding: 20px;
+       float: right;
+	   flex-direction: column;
+	   margin: 0px 1px 0px 1px;
+}
+	
+	
