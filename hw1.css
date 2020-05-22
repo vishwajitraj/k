@@ -2,12 +2,11 @@ body{
 	font-family: "Times New Roman";
 	padding: 1%;
 }
-h1{
-	text-align:center;
-	color:#F23000;
-	font-family:normal;
+
 }
+
 nav{
+	
 	text-align:center;
 	color:#FFFFFF;
 }
@@ -16,24 +15,25 @@ header{
 	background-image:url("webpic2.png");
 	background-color:#ffff00;
 width:100%;
-height:30%px;
+height:240px;
 margin:1%;
-padding:5%;
-margin-top:.1%;
-margin-left:.1%;
+padding:3%;
+margin-top:0%;
+margin-left:0%;
+top:1%;
 }
-nav a{
-	
-	width:10%;
+ul li{
+   text-align:center;
+	width:100%;
 	height:1%;
 	border:10%;
 	padding:1% 1%;
-	color:#FF0000;
-	background-color:#FFFFFF;
+	color:black;
+	background-color:yellow;
 	font-family:normal;
 	text-decoration:none;
 	font-weight:bold;
-	border-radius:0%;
+	border-radius:50%;
 	
 }
 nav .active{
@@ -83,5 +83,4 @@ p{
    text-align:center;
    background:gray;
 }   
-
 	
